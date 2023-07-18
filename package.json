@@ -1,0 +1,26 @@
+{
+  "name": "xiaosevenseven.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaosevenseven/xiaosevenseven.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaosevenseven/xiaosevenseven.github.io/issues"
+  },
+  "homepage": "https://github.com/xiaosevenseven/xiaosevenseven.github.io#readme",
+  "dependencies": {
+    "vitepress": "^1.0.0-beta.5"
+  }
+}
