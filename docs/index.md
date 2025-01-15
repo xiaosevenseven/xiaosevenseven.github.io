@@ -1,7 +1,8 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
-title: Seven的VLOG
+title: Seven的Blog
 titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
@@ -9,7 +10,7 @@ hero:
   text: 让学习成为一种爱好
   tagline: 记录Seven同学的学习日志。
   image:
-    src: /logo.png
+    src: images/logo.png
     alt: 网页的logo图标
   actions:
     - theme: brand
@@ -30,6 +31,9 @@ features:
     details: 努力成为自己喜欢的那种人 就算不成功 至少你会喜欢 这样努力的自己❤
   - title: "教父"
     details: 伟大的人不是生下来就伟大的，而是在成长过程中显示其伟大的。
-  - title: 浮士德
-    details: 凡自强不息者，终将得到救赎。
----
+  - title: Flutter
+    details: 跨端开发
+    link: "https:baidu.com"
+    linkText: "查看详情"
+--- 
+

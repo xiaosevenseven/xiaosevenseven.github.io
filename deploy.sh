@@ -10,7 +10,7 @@ npm run build
 cd docs/.vitepress/dist
 
 git init
-git config user.name '小琦琦'
+git config user.name '肖琦'
 git config user.email '1731455676@qq.com'
 git add -A
 git commit -m 'deploy'
