@@ -14,10 +14,10 @@ hero:
     alt: 网页的logo图标
   actions:
     - theme: brand
-      text: Get Started
+      text: 开始
       link: /js/index.md
     - theme: alt
-      text: View on GitHub
+      text: 查看 GitHub
       link: https://github.com/xiaosevenseven
 
 features:
