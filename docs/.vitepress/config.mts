@@ -44,6 +44,12 @@ export default defineConfig({
           ]
         }
       ],
+      "/engineering/": [
+        {
+          text: "代码规范",
+          link: '/engineering/code-standard.md'
+        },
+      ],
       "/node/": [
         {text: "packageJson", link: '/node/packageJson.md'},
       ],
