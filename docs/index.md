@@ -12,7 +12,7 @@ hero:
       text: GitHub
       link: https://github.com/xiaosevenseven
   image:
-    src: /logo.png
+    src: /logo
     alt: Logo
 features:
   - title: "Seven"

@@ -15,6 +15,9 @@ importers:
       '@biomejs/biome':
         specifier: ^1.9.4
         version: 1.9.4
+      '@rspress/plugin-last-updated':
+        specifier: ^1.43.9
+        version: 1.43.9
       '@types/node':
         specifier: ^18.11.17
         version: 18.19.84

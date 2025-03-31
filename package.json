@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@rspress/plugin-last-updated": "^1.43.9",
     "@types/node": "^18.11.17"
   },
   "packageManager": "pnpm@10.7.0"
