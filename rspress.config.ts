@@ -4,11 +4,11 @@ import { pluginLastUpdated } from '@rspress/plugin-last-updated';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  title: 'Seven',
-  icon: '/logo',
+  title: 'Seven的前端开发博客',
+  icon: '/logo.jpg',
   logo: {
-    light: '/logo',
-    dark: '/logo',
+    light: '/logo.jpg',
+    dark: '/logo.jpg',
   },
   themeConfig: {
     outlineTitle: '目录',

@@ -2,7 +2,7 @@
 pageType: home
 
 hero:
-  name: Seven
+  name: Seven的前端开发博客
   tagline: 记录Seven同学的学习日志。
   actions:
     - theme: brand
@@ -12,7 +12,7 @@ hero:
       text: GitHub
       link: https://github.com/xiaosevenseven
   image:
-    src: /logo
+    src: /logo.jpg
     alt: Logo
 features:
   - title: "Seven"
