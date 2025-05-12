@@ -10,6 +10,11 @@
     "activeMatch": "/js/"
   },
   {
+    "text": "TypeScript",
+    "link": "/ts/",
+    "activeMatch": "/ts/"
+  },
+  {
     "text": "Css",
     "link": "/css/",
     "activeMatch": "/css/"
@@ -18,6 +23,11 @@
     "text": "Vue",
     "link": "/vue/",
     "activeMatch": "/vue/"
+  },
+  {
+    "text": "Net",
+    "link": "/net/",
+    "activeMatch": "/net/"
   },
   {
     "text": "Flutter",
