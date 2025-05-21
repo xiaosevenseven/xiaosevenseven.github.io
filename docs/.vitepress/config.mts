@@ -18,6 +18,11 @@ export default defineConfig({
       provider: "local",
     },
 
+    outline: {
+      level: [2, 6],
+      label: '目录'
+    },
+
     // https://vitepress.dev/reference/default-theme-config
     nav: getNav(),
     sidebar: getSidebar(),

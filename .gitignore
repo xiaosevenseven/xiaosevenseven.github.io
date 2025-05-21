@@ -2,10 +2,6 @@
 node_modules/
 .pnpm-store/
 
-# 构建输出
-dist/
-docs/.vitepress/dist/
-
 # 缓存和临时文件
 .cache/
 .temp/
