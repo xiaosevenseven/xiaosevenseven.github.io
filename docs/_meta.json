@@ -25,6 +25,11 @@
     "activeMatch": "/vue/"
   },
   {
+    "text": "Net",
+    "link": "/net/",
+    "activeMatch": "/net/"
+  },
+  {
     "text": "Flutter",
     "link": "/flutter/",
     "activeMatch": "/flutter/"
