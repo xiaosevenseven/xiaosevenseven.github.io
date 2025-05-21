@@ -1,21 +1,20 @@
 {
   "name": "xiaosevenseven.github.io",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "build": "rspress build",
-    "check": "biome check --write",
-    "dev": "rspress dev",
-    "format": "biome format --write",
-    "preview": "rspress preview"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
-  "dependencies": {
-    "rspress": "^1.40.2"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0",
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "@rspress/plugin-last-updated": "^1.43.9",
-    "@types/node": "^18.11.17"
-  },
-  "packageManager": "pnpm@10.7.0"
+    "@giscus/vue": "^3.1.1",
+    "vitepress": "^1.6.3"
+  }
 }
