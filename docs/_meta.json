@@ -10,6 +10,11 @@
     "activeMatch": "/js/"
   },
   {
+    "text": "TypeScript",
+    "link": "/ts/",
+    "activeMatch": "/ts/"
+  },
+  {
     "text": "Css",
     "link": "/css/",
     "activeMatch": "/css/"
