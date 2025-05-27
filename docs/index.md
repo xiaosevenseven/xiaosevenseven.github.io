@@ -13,7 +13,7 @@ hero:
   text: "个人文章分享"
   tagline: My great project tagline
   image:
-    src: images/logo.png
+    src: images/logo.jpg
     alt: avatar
   actions:
     - theme: brand

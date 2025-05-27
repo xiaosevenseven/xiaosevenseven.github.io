@@ -7,7 +7,7 @@ export default defineConfig({
   title: "Seven 的开发网站",
   description: "个人文章分享",
   themeConfig: {
-     logo: 'images/logo.png',
+     logo: 'images/logo.jpg',
     docFooter: {
       prev: "上一页",
       next: "下一页",
