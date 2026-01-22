@@ -7,6 +7,7 @@ import { head } from "./head";
 export default defineConfig({
   head: head,
   base: '/',
+  outDir: '../dist',  // 构建产物输出到项目根目录的 dist 文件夹
   title: "Seven 的开发网站",
   description: "个人文章分享",
   themeConfig: {

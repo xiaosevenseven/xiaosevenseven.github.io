@@ -7,6 +7,9 @@ node_modules/
 .temp/
 docs/.vitepress/cache
 
+# 构建产物
+dist/
+
 # 环境变量文件
 .env
 .env.local
