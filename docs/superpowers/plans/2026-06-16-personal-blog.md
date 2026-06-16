@@ -12,7 +12,7 @@
 
 ## File Structure
 
-- Modify `rspress.config.ts`: keep Rspress root, title, icon, logo, and add site metadata for the blog.
+- Modify `rspress.config.ts`: keep Rspress root, title, icon, logo, add site metadata for the blog, and exclude internal Superpowers docs from generated routes.
 - Modify `docs/_nav.json`: replace generated docs navigation with blog navigation.
 - Replace `docs/index.md` with `docs/index.mdx`: brand-first homepage with capability cards, category links, and latest article links.
 - Create `docs/about/index.md`: concise personal profile and blog purpose.
@@ -30,6 +30,7 @@
 ### Task 1: Confirm Template Baseline
 
 **Files:**
+
 - Read: `docs/_nav.json`
 - Read: `docs/index.md`
 - Read: `docs/guide/start/introduction.md`
@@ -62,6 +63,7 @@ Expected: PASS with `Rspress v2.0.14` and output under `doc_build/`.
 ### Task 2: Replace Navigation And Site Metadata
 
 **Files:**
+
 - Modify: `rspress.config.ts`
 - Modify: `docs/_nav.json`
 
@@ -101,6 +103,9 @@ export default defineConfig({
         content: 'https://github.com/xiaosevenseven',
       },
     ],
+  },
+  route: {
+    exclude: ['superpowers/**'],
   },
 });
 ```
@@ -153,6 +158,7 @@ Expected: PASS with six matching navigation labels.
 ### Task 3: Build The Brand-First Homepage
 
 **Files:**
+
 - Delete: `docs/index.md`
 - Create: `docs/index.mdx`
 
@@ -245,6 +251,7 @@ Expected: PASS with all four phrases.
 ### Task 4: Create Blog Sections And Starter Articles
 
 **Files:**
+
 - Create: `docs/vue/_meta.json`
 - Create: `docs/vue/index.md`
 - Create: `docs/vue/vue-project-practice.md`
@@ -440,6 +447,7 @@ Expected: PASS.
 ### Task 5: Create About Page And Remove Template Docs
 
 **Files:**
+
 - Create: `docs/about/_meta.json`
 - Create: `docs/about/index.md`
 - Delete: `docs/guide/`
@@ -511,6 +519,7 @@ Expected: PASS.
 ### Task 6: Update README And Local Ignore Rules
 
 **Files:**
+
 - Modify: `README.md`
 - Modify: `.gitignore`
 
@@ -528,7 +537,7 @@ Expected: FAIL or partial output because README still uses the generated templat
 
 Use this complete file:
 
-```md
+````md
 # xiaosevenseven.github.io
 
 Seven 的个人技术博客，使用 Rspress 构建。
@@ -547,6 +556,7 @@ Install the dependencies:
 ```bash
 pnpm install
 ```
+````
 
 ## Get started
 
@@ -567,7 +577,8 @@ Preview the production build locally:
 ```bash
 pnpm run preview
 ```
-```
+
+````
 
 - [ ] **Step 3: Ensure `.superpowers/` is ignored**
 
@@ -575,7 +586,7 @@ Run:
 
 ```bash
 rg -n '^\.superpowers/$' .gitignore
-```
+````
 
 Expected: PASS with `.superpowers/`.
 
@@ -594,6 +605,7 @@ Expected: PASS with all command strings present.
 ### Task 7: Format, Build, And Browser Verify
 
 **Files:**
+
 - Verify: all modified blog files.
 
 - [ ] **Step 1: Run Prettier check**

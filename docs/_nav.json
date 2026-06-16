@@ -1,0 +1,26 @@
+[
+  {
+    "text": "首页",
+    "link": "/"
+  },
+  {
+    "text": "Vue",
+    "link": "/vue/"
+  },
+  {
+    "text": "React",
+    "link": "/react/"
+  },
+  {
+    "text": "工程化",
+    "link": "/engineering/"
+  },
+  {
+    "text": "AI",
+    "link": "/ai/"
+  },
+  {
+    "text": "关于",
+    "link": "/about/"
+  }
+]

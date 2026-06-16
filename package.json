@@ -1,19 +1,31 @@
 {
   "name": "xiaosevenseven.github.io",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "build": "rspress build",
+    "dev": "rspress dev",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "preview": "rspress preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.26.2",
+  "dependencies": {
+    "@rspress/core": "^2.0.14"
+  },
   "devDependencies": {
-    "vitepress": "2.0.0-alpha.15",
-    "vue": "^3.5.13"
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^22.8.1",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^10.4.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "typescript-eslint": "^8.59.4"
   }
 }
