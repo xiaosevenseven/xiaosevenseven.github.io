@@ -1,26 +1,22 @@
 [
   {
-    "text": "首页",
-    "link": "/"
-  },
-  {
     "text": "Vue",
-    "link": "/vue/"
+    "link": "/vue/",
+    "activeMatch": "/vue/"
   },
   {
     "text": "React",
-    "link": "/react/"
+    "link": "/react/",
+    "activeMatch": "/react/"
   },
   {
     "text": "工程化",
-    "link": "/engineering/"
-  },
-  {
-    "text": "AI",
-    "link": "/ai/"
+    "link": "/engineering/",
+    "activeMatch": "/engineering/"
   },
   {
     "text": "关于",
-    "link": "/about/"
+    "link": "/about/",
+    "activeMatch": "/about/"
   }
 ]

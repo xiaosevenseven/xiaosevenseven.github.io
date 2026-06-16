@@ -4,12 +4,12 @@ import { defineConfig } from '@rspress/core';
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   lang: 'zh',
-  title: "Seven's Blog",
-  description: 'Seven 的个人技术博客，记录 Vue、React、工程化与 AI 实践。',
-  icon: '/rspress-icon.png',
+  title: 'Seven Blog',
+  description: 'Seven 的个人技术博客，记录前端工程、框架实践和 AI 辅助开发。',
+  icon: '/seven-icon.svg',
   logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
+    light: '/seven-logo.svg',
+    dark: '/seven-logo.svg',
   },
   themeConfig: {
     socialLinks: [
